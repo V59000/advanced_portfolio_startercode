@@ -19,32 +19,154 @@
     <!-- Bootstrap CSS  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Fontawesome CSS  -->
-    
+    <script src="https://use.fontawesome.com/67b3962971.js"></script>
 </head>
 
-<body>
-     <div class="container">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--     <div class="container">
         <div class="row">
-            <div class="col-sm-4 offset-md-4">hyer</div>
-            <div class="col-sm-4 "></div>
+            <div class="col-sm-4 offset-sm-4">hyer</div>
+            <div class="col-sm-4 ">test</div>
         </div>
-    </div>
+    </div> -->
     <!-- Nav Bar -->
-      
+     <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-brand">
+                    <a href="#">Welcome !</a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Contacts</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                  <div class="form-group">
+                    <input type="text" class="form-control" style="float:right;" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+         </div>
+     </nav>
       
     <!-- Header -->
-    
+<!--    <div class="container">
+        <div class="jumbotron">
+            <img src="http://time.pd.ak.o.brightcove.com/rtmp_uds/2111767321001/2111767321001_4657447226001_Oscar-Health.jpg?pubId=2111767321001&videoId=4655830612001">
+            <h1>Hi, I'm Oscar</h1>
+        </div>
+    </div>
+    -->
+    <header>
+        <div class="container" tabindex="-1" style="padding-top: 100px; padding-bottom: 50px;">
+          <div class="row" id="t_op">
+            <div class="col-lg-12 text-center">
+              <img class="img-responsive center-block" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user-purple.png" alt="">
+              <div class="intro-text">
+                <h1 class="name">Oscar</h1>
+                <hr class="star-light">
+                <span class="skills">Student - Developer - Awesome Person</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
 
     <!-- Portfolio Grid Section -->
-    
+    <section id="portfolio" style="padding-top: 50px; padding-bottom: 50px; background-color: #f7f8f9">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Portfolio</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Portfolio Item 1 COPY THIS SECTION TWO MORE TIMES --> 
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <h4 class="text-center">Project 1</h4>
+            <img src="http://sweettutos.com/wp-content/uploads/2015/12/placeholder.png" class="img-responsive" />
+            <div class="caption text-center">
+              <a>Live Site</a> | <a>Source</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <h4 class="text-center">Project 2</h4>
+            <img src="http://sweettutos.com/wp-content/uploads/2015/12/placeholder.png" class="img-responsive" />
+            <div class="caption text-center">
+              <a>Live Site</a> | <a>Source</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="thumbnail">
+            <h4 class="text-center">Project 3</h4>
+            <img src="http://sweettutos.com/wp-content/uploads/2015/12/placeholder.png" class="img-responsive" />
+            <div class="caption text-center">
+              <a>Live Site</a> | <a>Source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
     <!-- About Section -->
-   
+     <section id="about" style="padding-top: 50px; padding-bottom: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>About</h2>
+          <hr class="star-light">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-8 col-lg-offset-2">
+          <p>Write about yourself</p>
+        </div>
+        <div class="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
+          <a href="" class="btn btn-lg btn-primary"> Learn More!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
     <!-- Contact Section -->
-
+  <section id="cont-act">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 >Contact</h2>
+        </div>
+      </div>
+        <hr>
+        <ul class="list-inline text-center">
+          <li><i class="fa fa-facebook-official fa-3" aria-hidden="true"></i></li>
+          <li><i class="fa fa-github fa-3" aria-hidden="true"></i></li>
+          <li><i class="fa fa-instagram fa-3" aria-hidden="true"></i></li>
+        </ul>
+    </div>
+  </section>
 
     <!-- Footer -->
+  <footer class="text-center" style="padding-top: 25px; padding-bottom: 25px; background: black; color: white;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Copyright © Your Website 2017</p>
+          </div>
+        </div>
+      </div>
+  </footer>
 
     
     <!-- Jquery Script -->
